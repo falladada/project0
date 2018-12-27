@@ -1,3 +1,6 @@
+$font-size-of-sidenav: 20px;
+
+
 html, body {
   height: 100%;
 }
@@ -22,7 +25,7 @@ body {
   height: 100%;
 }
 .sidenav ul {
-  font-size: 15px;
+  font-size: $font-size-of-sidenav;
   text-align: left;
   position: fixed;
   top: 50%;

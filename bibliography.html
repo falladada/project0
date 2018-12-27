@@ -4,8 +4,33 @@
         <title>
           Bibliography
         </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
-        Hello, world!
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <nav class="sidenav">
+              <ul class"sidenavlist">
+                <li> <a class="sidenavitem" href="index.html">Home</a></li>
+                <li><a class="sidenavitem" href="lpa.html">TLP</a></li>
+                <li><a class="sidenavitem" href="biography.html">Bio</a></li>
+                <li><a class="sidenavitem" href="bibliography.html">Biblio</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-9">
+          <p>Since I still need to use a feature form bootstrap, I inserted a few alert messages here</p>
+          <div class="alert alert-danger">
+            Too many good books outthere. Hard to decide.
+          </div>
+          <div class="alert alert-info">
+            I am an info alert.
+          </div>
+          <p>What is also missing is the usage of @media on this side.</p>
+          <p class="large-screen">Your screen is larger than 600px</p>
+          <p class="small-screen">Your screen is smaller than 600px</p>
+          </div>
     </body>
 </html>
