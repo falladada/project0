@@ -15,7 +15,7 @@ body {
 .row {
   height: 100%;
 }
-.col-3 & .col-9 {
+.col-3, .col-9 {
   height: 100%;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 .sidenavitem {
   font-family: monospace;
-  color: white;
+  color: black;
 }
 .sidenavitem a {
   text-decoration: none;
@@ -111,6 +111,5 @@ td {
   }
 .small-screen {
   display: inline;
-}
 }
 }
